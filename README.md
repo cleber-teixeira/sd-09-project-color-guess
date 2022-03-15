@@ -1,64 +1,65 @@
-# Boas vindas ao repositório do projeto de adivinhação de Cor!
+# Boas vindas ao repositório do projeto Adivinhe a Cor!
+
+### Projeto da Trybe <img align="center" alt="Js" height="30" width="30" src="https://scontent.fcgh24-1.fna.fbcdn.net/v/t1.6435-9/129351852_2818690001753270_85015407846271114_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=tfLU1xaTn3sAX-Ruhdi&_nc_ht=scontent.fcgh24-1.fna&oh=00_AT_ONAacPaQaVgYEDwZ6uN-6BJVveyEybKBI6q9NMKXB2Q&oe=6253555C">
+
+- **Formação -** Desenvolvimento Web Full Stack
+
+- **Módulo 01 -** Fundamentos do Desenvolvimento Web
+
+- **Bloco 05 -** JavaScript: DOM, Eventos e Web Storage
+
+<div align="center">
+
+  <img src="./project-color-guess.gif" alt="Tela do projeto Adivinhe a Cor" width="500">
+  
+  <p><a href="https://cleber-teixeira.github.io/projetos/color-guess/">Link para o projeto <b>Color Guess</b></a></p>
+  
+</div>
 
 ---
+### Contexto :pencil:
+Neste projeto é implementado:
 
-## Requisitos do projeto
+ - Um adivinhador de cor **RGB**, ou seja, dada uma string _RGB_, é fornecido **6 alternativas visuais** de cores, sendo uma delas a correta.
 
-### 💡Veja o exemplo a seguir de como o projeto pode se parecer depois de pronto. Lembre-se que você pode ~~e deve~~ ir além para deixar o projeto com a sua cara e impressionar à todos!
+---
+### Técnologias usadas :computer:
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+
+  <img align="center" alt="JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
+</div><br />
+
+Front-End:
+> Html 5, CSS 3, JavaScript
+
+---
+## Executando aplicação
+
+> Diretório Raiz
+- index.html
+---
+### Contatos
+<h2 align="center">Cleber Lopes Teixeira</h2>
 
 <p align="center">
-  <img
-    class="rounded mx-auto d-block"
-    src="/guess-the-color.gif"
-    alt="Gif exibindo um jogo de adivinhar a cor"
-  >
+  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFmdHcCCHE-Vw/profile-displayphoto-shrink_200_200/0/1621216320436?e=1650499200&v=beta&t=-jo6lhGIw5peMLFvIJzERqDLjIXFb27EOeAZ1CSBfw0" alt="Tela facebook" style="border-radius:5px;">
+
+  <br />
+  <img align="center" alt="GitHub" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg">
+  <a href="https://github.com/cleber-teixeira">cleber-teixeira</a>
+
+  <br />
+  <img align="center" alt="Linkedin" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg">
+  <a href="https://www.linkedin.com/in/cleberlopesteixeira/">cleberlopesteixeira</a>
+
+  <br />
+  <img align="center" alt="Gmail" height="20" width="30" src="https://s2.glbimg.com/R1uoCDVgdJggXlghX6YTXKg4M_U=/696x390/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/W/d/Bg1T2vQa6ipZZBu9uXhw/2017-03-08-wwwmarketinglandcom-1.png">
+  <a href="mailto:cleberlt@gmail.com">cleberlt@gmail.com</a>
+
 </p>
 
-
-Neste projeto, ê implementado um adivinhador de cor RGB, ou seja, dada uma string RGB, você irá fornecer 6 alternativas visuais de cores, sendo uma delas a correta! :artist:
-
 ---
-
-## Requisitos do projeto
-
-### 1 - O seu site deve possuir um título com o nome do seu jogo
-
-- O **id** do seu título deve ser `title`
-
-### 2 - A página deve possuir o texto com o código RGB a ser adivinhado
-
-- O seu **id** deve ser `rgb-color`
-- Esse texto deve conter os três números das cores RGB a ser adivinhada, no seguinte formato: `(168, 34, 1)`
-
-### 3 - A página deve conter opções de cores para serem adivinhadas
-
-- Deve conter 6 circulos como opção de cor de adivinhação
-- A **class** de todos os circulos deve ser `ball`
-
-### 4 - As cores das bolas devem ser geradas dinâmicamente
-
-- Ao carregar a página, as cores de cada um dos 6 circulos coloridos deve ser geradas via JavaScript
-
-### 5 - Ao clicar em um circulo colorido, deve ser mostrado um texto indicando se está correto
-
-- O seu **id** do elemento deve ser `answer`
-- Quando o jogo é iniciado, o texto exibido deve ser `"Escolha uma cor"`
-- Se o circulo colorido for o **correto**, deve ser exibido o texto `"Acertou!"`
-- Se o circulo colorido for o **incorreta**, deve ser exibido o texto `"Errou! Tente novamente!"`
-
-### 6 - Crie um botão para iniciar/reiniciar o jogo
-
-- O botão deve ter o **id** `reset-game`.
-- Ao clicar no botão, novas cores devem ser geradas via JavaScript e o elemento `rgb-color` deve ser atualizado
-- Ao clicar no botão, o elemento `answer` deve voltar ao estado inicial, exibindo o texto `"Escolha uma cor"`
-
-## BÔNUS
-
-### 7 - Crie um placar que incremente 3 pontos para cada acerto no jogo
-
-- O elemento deve ter o **id** `score`.
-- O valor inicial dele deve ser 0.
-- A cada acerto, é incrementado 3 pontos ao placar
-- Ao clicar no botão reiniciar, o placar **NÃO** deve ser resetado
-
-#VQV 🚀
