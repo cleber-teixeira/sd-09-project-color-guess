@@ -12,7 +12,7 @@
 
   <img src="./project-color-guess.gif" alt="Tela do projeto Adivinhe a Cor" width="500">
   
-  <p><a href="https://cleber-teixeira.github.io/projetos/color-guess/">Link para o projeto <b>Color Guess</b></a></p>
+  <p>Link para o projeto: <a href="https://cleber-teixeira.github.io/projetos/color-guess/"><b>Color Guess</b></a></p>
   
 </div>
 
